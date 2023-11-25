@@ -56,10 +56,6 @@ export default function Car({
                         </div>
                     ))}
                 </div>
-                <div className="door-button-box">
-                    <div className="car-button">{'><'}</div>
-                    <div className="car-button">{'<>'}</div>
-                </div>
             </div>
             <CarDoor doorStatus={doorStatus} setDoorStatus={setDoorStatus} />
         </div>
